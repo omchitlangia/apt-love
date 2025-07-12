@@ -1,0 +1,12 @@
+{
+    "username": "omc",
+    "age": 19,
+    "gender": "male",
+    "preference": "female",
+    "interests": [
+        "Arch ricing",
+        "Mounting emotional drives",
+        "Writing love letters in Markdown"
+    ],
+    "favorite_command": "chmod"
+}

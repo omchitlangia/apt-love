@@ -1,0 +1,13 @@
+[
+    {
+        "username": "manpage_bae",
+        "gender": "female",
+        "age": "24",
+        "interests": [
+            "Arch ricing",
+            "Updating system to feel productive",
+            "Writing love letters in Markdown"
+        ],
+        "favorite_command": "curl -I google.com"
+    }
+]
