@@ -5,6 +5,7 @@ from utils.swipe_engine import start_swiping
 from utils.match_viewer import view_matches
 from utils.love_quotes import show_random_quote
 from utils.easter_eggs import run_easter_egg
+from utils.mood_scanner import run_mood_scan, run_love_scan, run_nerd_scan, run_ex_scan
 
 def install_apt_love():
     print_delay("Reading package lists... Done", 0.03)
@@ -221,6 +222,20 @@ def main():
             uname = cmd.split(" ",1)[1].strip()
             from utils.chat_engine import start_chat_with
             start_chat_with(uname)
+        elif cmd == "mood-scan":
+            run_mood_scan()
+
+        elif cmd.startswith("love-scan"):
+            parts = cmd.split(" ", 1)
+            target = parts[1] if len(parts) > 1 else "your crush"
+            run_love_scan(target)
+
+        elif cmd == "nerd-scan":
+            run_nerd_scan()
+
+        elif cmd == "ex-scan":
+            run_ex_scan()
+
         else:
             run_easter_egg(cmd)
 
