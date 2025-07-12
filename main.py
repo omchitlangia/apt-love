@@ -217,6 +217,10 @@ def main():
         elif cmd == "exit":
             print_delay("Logging out but your heart remains logged in... 💔")
             break
+        elif cmd.startswith("text "):
+            uname = cmd.split(" ",1)[1].strip()
+            from utils.chat_engine import start_chat_with
+            start_chat_with(uname)
         else:
             run_easter_egg(cmd)
 

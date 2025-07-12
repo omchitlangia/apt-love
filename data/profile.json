@@ -1,12 +1,12 @@
 {
-    "username": "omc",
-    "age": 19,
-    "gender": "male",
-    "preference": "female",
+    "username": "prags",
+    "age": 20,
+    "gender": "female",
+    "preference": "male",
     "interests": [
         "Arch ricing",
-        "Mounting emotional drives",
-        "Writing love letters in Markdown"
+        "Watching matrix rain in real terminal",
+        "Updating system to feel productive"
     ],
-    "favorite_command": "chmod"
+    "favorite_command": "chown"
 }
