@@ -1,0 +1,10 @@
+{
+    "username": "Aditya",
+    "age": 19,
+    "interests": [
+        "Compiling from source",
+        "Reading man pages for fun",
+        "Hacking old CRT monitors"
+    ],
+    "favorite_command": "rm rf-"
+}

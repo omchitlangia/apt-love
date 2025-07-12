@@ -1,6 +1,12 @@
 from install.boot_sequence import boot_sequence
 from utils.printer import print_delay
 import time, json, os, shutil
+from utils.swipe_engine import start_swiping
+from utils.match_viewer import view_matches
+from utils.love_quotes import show_random_quote
+from utils.easter_eggs import run_easter_egg
+
+
 
 def install_apt_love():
     print_delay("Reading package lists... Done", 0.03)
@@ -164,8 +170,19 @@ def main():
         elif cmd == "exit":
             print_delay("Logging out...\n")
             break
+        elif cmd == "start-dating":
+            start_swiping()
+        elif cmd == "view-matches":
+            view_matches()
+        elif cmd == "love-quote":
+            show_random_quote()
+
+
+
         else:
-            print(f"bash: {cmd}: command not found")
+            run_easter_egg(cmd)
+
+        
 
 if __name__ == "__main__":
     main()

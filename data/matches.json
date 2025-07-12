@@ -1,0 +1,32 @@
+[
+    {
+        "username": "rootzilla",
+        "age": "19",
+        "interests": [
+            "Compiling from source",
+            "Running sudo for validation",
+            "Hacking old CRT monitors"
+        ],
+        "favorite_command": "alias love='cat /dev/soul'"
+    },
+    {
+        "username": "root_doll",
+        "age": "25",
+        "interests": [
+            "Compiling from source",
+            "Writing love letters in Markdown",
+            "Reading man pages for fun"
+        ],
+        "favorite_command": "man man"
+    },
+    {
+        "username": "root_doll",
+        "age": "25",
+        "interests": [
+            "Compiling from source",
+            "Writing love letters in Markdown",
+            "Reading man pages for fun"
+        ],
+        "favorite_command": "man man"
+    }
+]
