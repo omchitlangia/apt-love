@@ -1,23 +1,16 @@
 import json
 import random
 import os
+from utils.zodiac import get_zodiac_sign  # Make sure zodiac.py is in utils/
 
 INTEREST_OPTIONS = [
-    "Compiling from source",
-    "Arch ricing",
-    "ASCII art memes",
-    "Reading man pages for fun",
-    "Making Bash scripts that break everything",
-    "Emacs vs Vim debates",
-    "Mounting emotional drives",
-    "Watching matrix rain in real terminal",
-    "Tor browsing for cat pics",
-    "Hacking old CRT monitors",
-    "Writing love letters in Markdown",
-    "Running sudo for validation",
-    "Updating system to feel productive",
-    "Collecting rare distros",
-    "Arguing on StackOverflow"
+    "Compiling from source", "Arch ricing", "ASCII art memes",
+    "Reading man pages for fun", "Making Bash scripts that break everything",
+    "Emacs vs Vim debates", "Mounting emotional drives",
+    "Watching matrix rain in real terminal", "Tor browsing for cat pics",
+    "Hacking old CRT monitors", "Writing love letters in Markdown",
+    "Running sudo for validation", "Updating system to feel productive",
+    "Collecting rare distros", "Arguing on StackOverflow"
 ]
 
 FEMALE_NAMES = [
@@ -37,24 +30,35 @@ FAV_COMMANDS = [
     "echo $HOME", "nmap -sV", "alias love='cat /dev/soul'"
 ]
 
+def generate_fake_birthday():
+    day = random.randint(1, 28)
+    month = random.randint(1, 12)
+    return f"{day:02d}-{month:02d}", day, month
+
 def generate_profiles():
     profiles = []
 
     for name in FEMALE_NAMES:
+        birthday_str, day, month = generate_fake_birthday()
         profile = {
             "username": name,
             "gender": "female",
             "age": str(random.randint(19, 27)),
+            "birthday": birthday_str,
+            "zodiac": get_zodiac_sign(day, month),
             "interests": random.sample(INTEREST_OPTIONS, 3),
             "favorite_command": random.choice(FAV_COMMANDS)
         }
         profiles.append(profile)
 
     for name in MALE_NAMES:
+        birthday_str, day, month = generate_fake_birthday()
         profile = {
             "username": name,
             "gender": "male",
             "age": str(random.randint(19, 27)),
+            "birthday": birthday_str,
+            "zodiac": get_zodiac_sign(day, month),
             "interests": random.sample(INTEREST_OPTIONS, 3),
             "favorite_command": random.choice(FAV_COMMANDS)
         }

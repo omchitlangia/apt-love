@@ -2,331 +2,391 @@
     {
         "username": "packet_princess",
         "gender": "female",
-        "age": "19",
+        "age": "25",
+        "birthday": "19-06",
+        "zodiac": "Gemini",
         "interests": [
-            "Emacs vs Vim debates",
-            "Updating system to feel productive",
+            "Watching matrix rain in real terminal",
+            "Hacking old CRT monitors",
             "Compiling from source"
         ],
-        "favorite_command": "chmod +x love.sh"
+        "favorite_command": "man man"
     },
     {
         "username": "cli_queen",
         "gender": "female",
-        "age": "26",
+        "age": "20",
+        "birthday": "08-08",
+        "zodiac": "Leo",
         "interests": [
-            "Mounting emotional drives",
-            "Compiling from source",
-            "Reading man pages for fun"
+            "Hacking old CRT monitors",
+            "Making Bash scripts that break everything",
+            "Writing love letters in Markdown"
         ],
-        "favorite_command": "echo $HOME"
+        "favorite_command": "nmap -sV"
     },
     {
         "username": "root_doll",
         "gender": "female",
-        "age": "20",
+        "age": "21",
+        "birthday": "23-03",
+        "zodiac": "Aries",
         "interests": [
-            "Tor browsing for cat pics",
-            "Compiling from source",
-            "ASCII art memes"
+            "Running sudo for validation",
+            "Reading man pages for fun",
+            "Watching matrix rain in real terminal"
         ],
-        "favorite_command": "man man"
+        "favorite_command": "neofetch"
     },
     {
         "username": "manpage_bae",
         "gender": "female",
-        "age": "24",
+        "age": "22",
+        "birthday": "20-03",
+        "zodiac": "Pisces",
         "interests": [
-            "Arch ricing",
-            "Updating system to feel productive",
-            "Writing love letters in Markdown"
+            "Mounting emotional drives",
+            "Emacs vs Vim debates",
+            "Running sudo for validation"
         ],
-        "favorite_command": "curl -I google.com"
+        "favorite_command": "ls -lAh"
     },
     {
         "username": "neovim_nymph",
         "gender": "female",
-        "age": "26",
+        "age": "25",
+        "birthday": "26-12",
+        "zodiac": "Capricorn",
         "interests": [
-            "Tor browsing for cat pics",
-            "ASCII art memes",
-            "Arguing on StackOverflow"
+            "Emacs vs Vim debates",
+            "Mounting emotional drives",
+            "Reading man pages for fun"
         ],
-        "favorite_command": "man man"
+        "favorite_command": "chmod +x love.sh"
     },
     {
         "username": "sudo_sweetheart",
         "gender": "female",
-        "age": "25",
+        "age": "24",
+        "birthday": "27-11",
+        "zodiac": "Sagittarius",
         "interests": [
-            "Hacking old CRT monitors",
-            "Compiling from source",
-            "Arguing on StackOverflow"
-        ],
-        "favorite_command": "neofetch"
-    },
-    {
-        "username": "markdown_mermaid",
-        "gender": "female",
-        "age": "25",
-        "interests": [
-            "Reading man pages for fun",
-            "Compiling from source",
-            "Arch ricing"
-        ],
-        "favorite_command": "sudo rm -rf /"
-    },
-    {
-        "username": "dev_damsel",
-        "gender": "female",
-        "age": "19",
-        "interests": [
-            "Mounting emotional drives",
+            "Arch ricing",
             "Updating system to feel productive",
-            "Arch ricing"
+            "Emacs vs Vim debates"
         ],
         "favorite_command": "man man"
     },
     {
+        "username": "markdown_mermaid",
+        "gender": "female",
+        "age": "22",
+        "birthday": "07-12",
+        "zodiac": "Sagittarius",
+        "interests": [
+            "Updating system to feel productive",
+            "Reading man pages for fun",
+            "Making Bash scripts that break everything"
+        ],
+        "favorite_command": "nmap -sV"
+    },
+    {
+        "username": "dev_damsel",
+        "gender": "female",
+        "age": "24",
+        "birthday": "16-11",
+        "zodiac": "Scorpio",
+        "interests": [
+            "Arguing on StackOverflow",
+            "Arch ricing",
+            "Watching matrix rain in real terminal"
+        ],
+        "favorite_command": "chmod +x love.sh"
+    },
+    {
         "username": "bashful_babe",
         "gender": "female",
-        "age": "26",
+        "age": "19",
+        "birthday": "17-08",
+        "zodiac": "Leo",
         "interests": [
-            "Hacking old CRT monitors",
-            "Emacs vs Vim debates",
-            "Tor browsing for cat pics"
+            "Arguing on StackOverflow",
+            "Updating system to feel productive",
+            "Watching matrix rain in real terminal"
         ],
-        "favorite_command": "neofetch"
+        "favorite_command": "curl -I google.com"
     },
     {
         "username": "r00tgrl",
         "gender": "female",
-        "age": "23",
+        "age": "22",
+        "birthday": "11-05",
+        "zodiac": "Taurus",
         "interests": [
-            "Arguing on StackOverflow",
-            "Writing love letters in Markdown",
-            "Updating system to feel productive"
+            "Reading man pages for fun",
+            "Making Bash scripts that break everything",
+            "Hacking old CRT monitors"
         ],
-        "favorite_command": "echo $HOME"
+        "favorite_command": "neofetch"
     },
     {
         "username": "matrix_mistress",
         "gender": "female",
-        "age": "20",
+        "age": "19",
+        "birthday": "12-05",
+        "zodiac": "Taurus",
         "interests": [
-            "Arch ricing",
-            "Emacs vs Vim debates",
-            "Mounting emotional drives"
+            "Compiling from source",
+            "Tor browsing for cat pics",
+            "Collecting rare distros"
         ],
         "favorite_command": "curl -I google.com"
     },
     {
         "username": "hackette",
         "gender": "female",
-        "age": "23",
+        "age": "19",
+        "birthday": "14-08",
+        "zodiac": "Leo",
         "interests": [
-            "ASCII art memes",
-            "Watching matrix rain in real terminal",
-            "Arguing on StackOverflow"
+            "Running sudo for validation",
+            "Writing love letters in Markdown",
+            "Compiling from source"
         ],
         "favorite_command": "alias love='cat /dev/soul'"
     },
     {
         "username": "distro_diva",
         "gender": "female",
-        "age": "21",
+        "age": "25",
+        "birthday": "12-08",
+        "zodiac": "Leo",
         "interests": [
-            "Writing love letters in Markdown",
-            "Compiling from source",
-            "Arguing on StackOverflow"
+            "Running sudo for validation",
+            "Updating system to feel productive",
+            "Arch ricing"
         ],
-        "favorite_command": "htop"
+        "favorite_command": "man man"
     },
     {
         "username": "arch_angel",
         "gender": "female",
-        "age": "26",
+        "age": "24",
+        "birthday": "02-09",
+        "zodiac": "Virgo",
         "interests": [
-            "Running sudo for validation",
-            "Arguing on StackOverflow",
-            "Making Bash scripts that break everything"
+            "Compiling from source",
+            "Collecting rare distros",
+            "ASCII art memes"
         ],
         "favorite_command": "sudo rm -rf /"
     },
     {
         "username": "catnip_coder",
         "gender": "female",
-        "age": "20",
+        "age": "23",
+        "birthday": "21-08",
+        "zodiac": "Leo",
         "interests": [
-            "Compiling from source",
+            "Hacking old CRT monitors",
             "Running sudo for validation",
             "Making Bash scripts that break everything"
         ],
-        "favorite_command": "curl -I google.com"
+        "favorite_command": "man man"
     },
     {
         "username": "vim_king",
         "gender": "male",
         "age": "22",
+        "birthday": "01-03",
+        "zodiac": "Pisces",
         "interests": [
-            "Emacs vs Vim debates",
             "Reading man pages for fun",
-            "Making Bash scripts that break everything"
+            "ASCII art memes",
+            "Updating system to feel productive"
         ],
-        "favorite_command": "htop"
+        "favorite_command": "curl -I google.com"
     },
     {
         "username": "bash_beast",
         "gender": "male",
-        "age": "23",
+        "age": "25",
+        "birthday": "27-07",
+        "zodiac": "Leo",
         "interests": [
-            "Mounting emotional drives",
-            "Making Bash scripts that break everything",
-            "Collecting rare distros"
+            "Tor browsing for cat pics",
+            "Collecting rare distros",
+            "ASCII art memes"
         ],
-        "favorite_command": "echo $HOME"
+        "favorite_command": "sudo rm -rf /"
     },
     {
         "username": "kernel_crush",
         "gender": "male",
         "age": "21",
+        "birthday": "09-12",
+        "zodiac": "Sagittarius",
         "interests": [
-            "ASCII art memes",
-            "Watching matrix rain in real terminal",
-            "Reading man pages for fun"
+            "Updating system to feel productive",
+            "Compiling from source",
+            "Making Bash scripts that break everything"
         ],
-        "favorite_command": "neofetch"
+        "favorite_command": "htop"
     },
     {
         "username": "ascii_dude",
         "gender": "male",
-        "age": "27",
+        "age": "20",
+        "birthday": "12-01",
+        "zodiac": "Capricorn",
         "interests": [
-            "Reading man pages for fun",
-            "Collecting rare distros",
-            "Arch ricing"
+            "Hacking old CRT monitors",
+            "Watching matrix rain in real terminal",
+            "Reading man pages for fun"
         ],
         "favorite_command": "htop"
     },
     {
         "username": "emacs_warrior",
         "gender": "male",
-        "age": "21",
+        "age": "19",
+        "birthday": "16-05",
+        "zodiac": "Taurus",
         "interests": [
+            "Updating system to feel productive",
             "Compiling from source",
-            "Reading man pages for fun",
-            "Mounting emotional drives"
+            "Making Bash scripts that break everything"
         ],
-        "favorite_command": "alias love='cat /dev/soul'"
+        "favorite_command": "sudo rm -rf /"
     },
     {
         "username": "sudo_bro",
         "gender": "male",
-        "age": "26",
+        "age": "21",
+        "birthday": "12-08",
+        "zodiac": "Leo",
         "interests": [
-            "Compiling from source",
-            "Arguing on StackOverflow",
-            "Mounting emotional drives"
+            "Collecting rare distros",
+            "Updating system to feel productive",
+            "Arch ricing"
         ],
-        "favorite_command": "chmod +x love.sh"
+        "favorite_command": "curl -I google.com"
     },
     {
         "username": "cli_chad",
         "gender": "male",
-        "age": "26",
+        "age": "19",
+        "birthday": "25-04",
+        "zodiac": "Taurus",
         "interests": [
             "Running sudo for validation",
-            "Compiling from source",
+            "Arguing on StackOverflow",
             "Collecting rare distros"
         ],
-        "favorite_command": "neofetch"
+        "favorite_command": "nmap -sV"
     },
     {
         "username": "manpager",
         "gender": "male",
-        "age": "23",
+        "age": "27",
+        "birthday": "22-01",
+        "zodiac": "Capricorn",
         "interests": [
-            "Collecting rare distros",
-            "Compiling from source",
-            "Hacking old CRT monitors"
+            "Running sudo for validation",
+            "Hacking old CRT monitors",
+            "Mounting emotional drives"
         ],
-        "favorite_command": "neofetch"
+        "favorite_command": "echo $HOME"
     },
     {
         "username": "rootzilla",
         "gender": "male",
-        "age": "21",
+        "age": "19",
+        "birthday": "25-01",
+        "zodiac": "Capricorn",
         "interests": [
-            "Making Bash scripts that break everything",
-            "Arguing on StackOverflow",
-            "ASCII art memes"
+            "Running sudo for validation",
+            "ASCII art memes",
+            "Arch ricing"
         ],
-        "favorite_command": "neofetch"
+        "favorite_command": "htop"
     },
     {
         "username": "g33k_lord",
         "gender": "male",
-        "age": "20",
+        "age": "27",
+        "birthday": "02-12",
+        "zodiac": "Sagittarius",
         "interests": [
-            "ASCII art memes",
-            "Watching matrix rain in real terminal",
-            "Arch ricing"
+            "Arch ricing",
+            "Making Bash scripts that break everything",
+            "Compiling from source"
         ],
         "favorite_command": "alias love='cat /dev/soul'"
     },
     {
         "username": "packet_sniffer",
         "gender": "male",
-        "age": "22",
+        "age": "26",
+        "birthday": "11-03",
+        "zodiac": "Pisces",
         "interests": [
-            "Emacs vs Vim debates",
-            "Arguing on StackOverflow",
-            "Compiling from source"
+            "Reading man pages for fun",
+            "Writing love letters in Markdown",
+            "Arch ricing"
         ],
-        "favorite_command": "nmap -sV"
+        "favorite_command": "ls -lAh"
     },
     {
         "username": "stackoverlord",
         "gender": "male",
         "age": "27",
+        "birthday": "22-07",
+        "zodiac": "Cancer",
         "interests": [
-            "Collecting rare distros",
-            "Tor browsing for cat pics",
-            "Updating system to feel productive"
+            "Running sudo for validation",
+            "Updating system to feel productive",
+            "Arch ricing"
         ],
-        "favorite_command": "curl -I google.com"
+        "favorite_command": "echo $HOME"
     },
     {
         "username": "cmdline_lover",
         "gender": "male",
-        "age": "26",
+        "age": "22",
+        "birthday": "04-07",
+        "zodiac": "Cancer",
         "interests": [
             "Collecting rare distros",
-            "Emacs vs Vim debates",
-            "Reading man pages for fun"
+            "Arch ricing",
+            "Hacking old CRT monitors"
         ],
-        "favorite_command": "alias love='cat /dev/soul'"
+        "favorite_command": "htop"
     },
     {
         "username": "neovim_knight",
         "gender": "male",
         "age": "24",
+        "birthday": "22-08",
+        "zodiac": "Leo",
         "interests": [
-            "Making Bash scripts that break everything",
-            "Updating system to feel productive",
-            "Watching matrix rain in real terminal"
+            "Running sudo for validation",
+            "Arch ricing",
+            "Reading man pages for fun"
         ],
-        "favorite_command": "neofetch"
+        "favorite_command": "alias love='cat /dev/soul'"
     },
     {
         "username": "distromancer",
         "gender": "male",
-        "age": "20",
+        "age": "27",
+        "birthday": "04-10",
+        "zodiac": "Libra",
         "interests": [
-            "Arch ricing",
-            "Updating system to feel productive",
-            "Tor browsing for cat pics"
+            "Tor browsing for cat pics",
+            "Watching matrix rain in real terminal",
+            "Writing love letters in Markdown"
         ],
-        "favorite_command": "man man"
+        "favorite_command": "alias love='cat /dev/soul'"
     }
 ]
