@@ -1,301 +1,331 @@
 [
     {
         "username": "packet_princess",
+        "gender": "female",
         "age": "19",
         "interests": [
-            "Making Bash scripts that break everything",
-            "Writing love letters in Markdown",
-            "Emacs vs Vim debates"
+            "Emacs vs Vim debates",
+            "Updating system to feel productive",
+            "Compiling from source"
         ],
-        "favorite_command": "neofetch"
+        "favorite_command": "chmod +x love.sh"
     },
     {
         "username": "cli_queen",
-        "age": "21",
+        "gender": "female",
+        "age": "26",
         "interests": [
-            "Emacs vs Vim debates",
-            "Hacking old CRT monitors",
-            "Running sudo for validation"
+            "Mounting emotional drives",
+            "Compiling from source",
+            "Reading man pages for fun"
         ],
-        "favorite_command": "neofetch"
+        "favorite_command": "echo $HOME"
     },
     {
         "username": "root_doll",
-        "age": "25",
+        "gender": "female",
+        "age": "20",
         "interests": [
+            "Tor browsing for cat pics",
             "Compiling from source",
-            "Writing love letters in Markdown",
-            "Reading man pages for fun"
+            "ASCII art memes"
         ],
         "favorite_command": "man man"
     },
     {
         "username": "manpage_bae",
-        "age": "25",
+        "gender": "female",
+        "age": "24",
         "interests": [
-            "Watching matrix rain in real terminal",
-            "Writing love letters in Markdown",
-            "Compiling from source"
+            "Arch ricing",
+            "Updating system to feel productive",
+            "Writing love letters in Markdown"
         ],
-        "favorite_command": "echo $HOME"
+        "favorite_command": "curl -I google.com"
     },
     {
         "username": "neovim_nymph",
-        "age": "27",
+        "gender": "female",
+        "age": "26",
         "interests": [
-            "Writing love letters in Markdown",
-            "Watching matrix rain in real terminal",
-            "Making Bash scripts that break everything"
+            "Tor browsing for cat pics",
+            "ASCII art memes",
+            "Arguing on StackOverflow"
         ],
-        "favorite_command": "ls -lAh"
+        "favorite_command": "man man"
     },
     {
         "username": "sudo_sweetheart",
-        "age": "26",
+        "gender": "female",
+        "age": "25",
         "interests": [
-            "Mounting emotional drives",
-            "Writing love letters in Markdown",
-            "Making Bash scripts that break everything"
+            "Hacking old CRT monitors",
+            "Compiling from source",
+            "Arguing on StackOverflow"
+        ],
+        "favorite_command": "neofetch"
+    },
+    {
+        "username": "markdown_mermaid",
+        "gender": "female",
+        "age": "25",
+        "interests": [
+            "Reading man pages for fun",
+            "Compiling from source",
+            "Arch ricing"
         ],
         "favorite_command": "sudo rm -rf /"
     },
     {
-        "username": "markdown_mermaid",
-        "age": "24",
+        "username": "dev_damsel",
+        "gender": "female",
+        "age": "19",
         "interests": [
             "Mounting emotional drives",
-            "Arch ricing",
-            "Arguing on StackOverflow"
-        ],
-        "favorite_command": "chmod +x love.sh"
-    },
-    {
-        "username": "dev_damsel",
-        "age": "25",
-        "interests": [
-            "Compiling from source",
             "Updating system to feel productive",
-            "Arguing on StackOverflow"
+            "Arch ricing"
         ],
-        "favorite_command": "htop"
+        "favorite_command": "man man"
     },
     {
         "username": "bashful_babe",
-        "age": "22",
+        "gender": "female",
+        "age": "26",
         "interests": [
-            "Arguing on StackOverflow",
-            "ASCII art memes",
-            "Writing love letters in Markdown"
+            "Hacking old CRT monitors",
+            "Emacs vs Vim debates",
+            "Tor browsing for cat pics"
         ],
-        "favorite_command": "htop"
+        "favorite_command": "neofetch"
     },
     {
         "username": "r00tgrl",
+        "gender": "female",
         "age": "23",
         "interests": [
-            "Compiling from source",
-            "Making Bash scripts that break everything",
-            "Running sudo for validation"
+            "Arguing on StackOverflow",
+            "Writing love letters in Markdown",
+            "Updating system to feel productive"
         ],
-        "favorite_command": "nmap -sV"
+        "favorite_command": "echo $HOME"
     },
     {
         "username": "matrix_mistress",
-        "age": "19",
+        "gender": "female",
+        "age": "20",
         "interests": [
             "Arch ricing",
-            "Collecting rare distros",
+            "Emacs vs Vim debates",
             "Mounting emotional drives"
         ],
         "favorite_command": "curl -I google.com"
     },
     {
         "username": "hackette",
-        "age": "27",
+        "gender": "female",
+        "age": "23",
         "interests": [
-            "Making Bash scripts that break everything",
-            "Running sudo for validation",
-            "Writing love letters in Markdown"
-        ],
-        "favorite_command": "sudo rm -rf /"
-    },
-    {
-        "username": "distro_diva",
-        "age": "27",
-        "interests": [
-            "Emacs vs Vim debates",
-            "Running sudo for validation",
+            "ASCII art memes",
+            "Watching matrix rain in real terminal",
             "Arguing on StackOverflow"
-        ],
-        "favorite_command": "echo $HOME"
-    },
-    {
-        "username": "arch_angel",
-        "age": "19",
-        "interests": [
-            "Making Bash scripts that break everything",
-            "Arch ricing",
-            "Collecting rare distros"
         ],
         "favorite_command": "alias love='cat /dev/soul'"
     },
     {
-        "username": "catnip_coder",
-        "age": "27",
+        "username": "distro_diva",
+        "gender": "female",
+        "age": "21",
         "interests": [
-            "Tor browsing for cat pics",
-            "Arch ricing",
-            "Reading man pages for fun"
+            "Writing love letters in Markdown",
+            "Compiling from source",
+            "Arguing on StackOverflow"
         ],
         "favorite_command": "htop"
     },
     {
-        "username": "vim_king",
+        "username": "arch_angel",
+        "gender": "female",
+        "age": "26",
+        "interests": [
+            "Running sudo for validation",
+            "Arguing on StackOverflow",
+            "Making Bash scripts that break everything"
+        ],
+        "favorite_command": "sudo rm -rf /"
+    },
+    {
+        "username": "catnip_coder",
+        "gender": "female",
         "age": "20",
         "interests": [
-            "Updating system to feel productive",
+            "Compiling from source",
+            "Running sudo for validation",
+            "Making Bash scripts that break everything"
+        ],
+        "favorite_command": "curl -I google.com"
+    },
+    {
+        "username": "vim_king",
+        "gender": "male",
+        "age": "22",
+        "interests": [
+            "Emacs vs Vim debates",
+            "Reading man pages for fun",
+            "Making Bash scripts that break everything"
+        ],
+        "favorite_command": "htop"
+    },
+    {
+        "username": "bash_beast",
+        "gender": "male",
+        "age": "23",
+        "interests": [
             "Mounting emotional drives",
+            "Making Bash scripts that break everything",
+            "Collecting rare distros"
+        ],
+        "favorite_command": "echo $HOME"
+    },
+    {
+        "username": "kernel_crush",
+        "gender": "male",
+        "age": "21",
+        "interests": [
+            "ASCII art memes",
+            "Watching matrix rain in real terminal",
             "Reading man pages for fun"
+        ],
+        "favorite_command": "neofetch"
+    },
+    {
+        "username": "ascii_dude",
+        "gender": "male",
+        "age": "27",
+        "interests": [
+            "Reading man pages for fun",
+            "Collecting rare distros",
+            "Arch ricing"
+        ],
+        "favorite_command": "htop"
+    },
+    {
+        "username": "emacs_warrior",
+        "gender": "male",
+        "age": "21",
+        "interests": [
+            "Compiling from source",
+            "Reading man pages for fun",
+            "Mounting emotional drives"
+        ],
+        "favorite_command": "alias love='cat /dev/soul'"
+    },
+    {
+        "username": "sudo_bro",
+        "gender": "male",
+        "age": "26",
+        "interests": [
+            "Compiling from source",
+            "Arguing on StackOverflow",
+            "Mounting emotional drives"
         ],
         "favorite_command": "chmod +x love.sh"
     },
     {
-        "username": "bash_beast",
-        "age": "22",
+        "username": "cli_chad",
+        "gender": "male",
+        "age": "26",
         "interests": [
-            "Making Bash scripts that break everything",
-            "Writing love letters in Markdown",
-            "Tor browsing for cat pics"
-        ],
-        "favorite_command": "alias love='cat /dev/soul'"
-    },
-    {
-        "username": "kernel_crush",
-        "age": "27",
-        "interests": [
+            "Running sudo for validation",
             "Compiling from source",
-            "ASCII art memes",
-            "Arguing on StackOverflow"
+            "Collecting rare distros"
         ],
-        "favorite_command": "alias love='cat /dev/soul'"
+        "favorite_command": "neofetch"
     },
     {
-        "username": "ascii_dude",
-        "age": "27",
+        "username": "manpager",
+        "gender": "male",
+        "age": "23",
+        "interests": [
+            "Collecting rare distros",
+            "Compiling from source",
+            "Hacking old CRT monitors"
+        ],
+        "favorite_command": "neofetch"
+    },
+    {
+        "username": "rootzilla",
+        "gender": "male",
+        "age": "21",
         "interests": [
             "Making Bash scripts that break everything",
-            "Mounting emotional drives",
+            "Arguing on StackOverflow",
+            "ASCII art memes"
+        ],
+        "favorite_command": "neofetch"
+    },
+    {
+        "username": "g33k_lord",
+        "gender": "male",
+        "age": "20",
+        "interests": [
+            "ASCII art memes",
+            "Watching matrix rain in real terminal",
             "Arch ricing"
         ],
         "favorite_command": "alias love='cat /dev/soul'"
     },
     {
-        "username": "emacs_warrior",
-        "age": "21",
-        "interests": [
-            "Running sudo for validation",
-            "Arguing on StackOverflow",
-            "Watching matrix rain in real terminal"
-        ],
-        "favorite_command": "echo $HOME"
-    },
-    {
-        "username": "sudo_bro",
-        "age": "22",
-        "interests": [
-            "Arguing on StackOverflow",
-            "Reading man pages for fun",
-            "ASCII art memes"
-        ],
-        "favorite_command": "nmap -sV"
-    },
-    {
-        "username": "cli_chad",
-        "age": "26",
-        "interests": [
-            "Arch ricing",
-            "Making Bash scripts that break everything",
-            "Compiling from source"
-        ],
-        "favorite_command": "curl -I google.com"
-    },
-    {
-        "username": "manpager",
-        "age": "19",
-        "interests": [
-            "Running sudo for validation",
-            "Writing love letters in Markdown",
-            "Making Bash scripts that break everything"
-        ],
-        "favorite_command": "alias love='cat /dev/soul'"
-    },
-    {
-        "username": "rootzilla",
-        "age": "19",
-        "interests": [
-            "Compiling from source",
-            "Running sudo for validation",
-            "Hacking old CRT monitors"
-        ],
-        "favorite_command": "alias love='cat /dev/soul'"
-    },
-    {
-        "username": "g33k_lord",
-        "age": "22",
-        "interests": [
-            "Hacking old CRT monitors",
-            "Making Bash scripts that break everything",
-            "Watching matrix rain in real terminal"
-        ],
-        "favorite_command": "ls -lAh"
-    },
-    {
         "username": "packet_sniffer",
-        "age": "25",
+        "gender": "male",
+        "age": "22",
         "interests": [
-            "Hacking old CRT monitors",
-            "Writing love letters in Markdown",
-            "Updating system to feel productive"
+            "Emacs vs Vim debates",
+            "Arguing on StackOverflow",
+            "Compiling from source"
         ],
         "favorite_command": "nmap -sV"
     },
     {
         "username": "stackoverlord",
-        "age": "24",
+        "gender": "male",
+        "age": "27",
         "interests": [
-            "Arch ricing",
+            "Collecting rare distros",
             "Tor browsing for cat pics",
-            "Making Bash scripts that break everything"
+            "Updating system to feel productive"
         ],
-        "favorite_command": "htop"
+        "favorite_command": "curl -I google.com"
     },
     {
         "username": "cmdline_lover",
-        "age": "21",
+        "gender": "male",
+        "age": "26",
         "interests": [
             "Collecting rare distros",
-            "Compiling from source",
-            "Running sudo for validation"
+            "Emacs vs Vim debates",
+            "Reading man pages for fun"
         ],
-        "favorite_command": "nmap -sV"
+        "favorite_command": "alias love='cat /dev/soul'"
     },
     {
         "username": "neovim_knight",
-        "age": "19",
+        "gender": "male",
+        "age": "24",
         "interests": [
+            "Making Bash scripts that break everything",
             "Updating system to feel productive",
-            "Mounting emotional drives",
             "Watching matrix rain in real terminal"
         ],
-        "favorite_command": "ls -lAh"
+        "favorite_command": "neofetch"
     },
     {
         "username": "distromancer",
+        "gender": "male",
         "age": "20",
         "interests": [
-            "ASCII art memes",
-            "Collecting rare distros",
-            "Making Bash scripts that break everything"
+            "Arch ricing",
+            "Updating system to feel productive",
+            "Tor browsing for cat pics"
         ],
         "favorite_command": "man man"
     }

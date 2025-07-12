@@ -43,6 +43,7 @@ def generate_profiles():
     for name in FEMALE_NAMES:
         profile = {
             "username": name,
+            "gender": "female",
             "age": str(random.randint(19, 27)),
             "interests": random.sample(INTEREST_OPTIONS, 3),
             "favorite_command": random.choice(FAV_COMMANDS)
@@ -52,6 +53,7 @@ def generate_profiles():
     for name in MALE_NAMES:
         profile = {
             "username": name,
+            "gender": "male",
             "age": str(random.randint(19, 27)),
             "interests": random.sample(INTEREST_OPTIONS, 3),
             "favorite_command": random.choice(FAV_COMMANDS)

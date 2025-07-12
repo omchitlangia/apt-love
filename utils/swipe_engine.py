@@ -19,12 +19,13 @@ def load_match_pool():
 
 def show_ascii_card(profile):
     print("\n" + "=" * 40)
-    print(f"💻  Username: {profile['username']}")
-    print(f"🎂  Age: {profile['age']}")
-    print("🎯  Interests:")
+    print(f"💻 Username: {profile['username']}")
+    print(f"🎂 Age: {profile['age']}")
+    print(f"🚻 Gender: {profile.get('gender', 'N/A')}")
+    print("🎯 Interests:")
     for interest in profile['interests']:
         print(f"   • {interest}")
-    print(f"💻  Fav Command: {profile['favorite_command']}")
+    print(f"💻 Fav Command: {profile['favorite_command']}")
     print("=" * 40)
 
 def calculate_match(user, candidate):
@@ -55,7 +56,11 @@ def start_swiping():
         return
 
     pool = load_match_pool()
-    random.shuffle(pool)  # Shuffle for randomness
+    pref = user.get("preference", "both")
+    if pref != "both":
+        pool = [p for p in pool if p.get("gender") == pref]
+
+    random.shuffle(pool)
     shown = 0
 
     for candidate in pool:
@@ -73,12 +78,11 @@ def start_swiping():
             if calculate_match(user, candidate):
                 show_match_animation()
                 save_match(candidate)
-
             else:
-                print_delay("😢 No spark... maybe next one.")
+                print_delay("😢 No spark... maybe next time.")
         else:
             print("❓ Invalid choice. Skipping...")
 
         shown += 1
 
-    print_delay("\n📁 Session ended. Run again to swipe more.")
+    print_delay("\n📁 Session ended. Type start-dating to continue swiping.")

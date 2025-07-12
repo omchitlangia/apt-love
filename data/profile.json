@@ -1,10 +1,12 @@
 {
-    "username": "Aditya",
+    "username": "omc",
     "age": 19,
+    "gender": "male",
+    "preference": "female",
     "interests": [
-        "Compiling from source",
-        "Reading man pages for fun",
-        "Hacking old CRT monitors"
+        "Arch ricing",
+        "Mounting emotional drives",
+        "Writing love letters in Markdown"
     ],
-    "favorite_command": "rm rf-"
+    "favorite_command": "chmod"
 }
