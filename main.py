@@ -1,3 +1,6 @@
+# Copyright (c) 2025 Om Chitlangia
+# Licensed under the MIT License. See LICENSE file in the project root for full license information.
+
 from install.boot_sequence import boot_sequence
 from utils.printer import print_delay
 import time, json, os
