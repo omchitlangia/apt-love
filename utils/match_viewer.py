@@ -23,5 +23,7 @@ def view_matches():
         print("🎯  Interests:")
         for interest in match['interests']:
             print(f"   • {interest}")
+        print(f"🎂 Birthday: {match['birthday']}")
+        print(f"🔮 Zodiac Sign: {match['zodiac']}")
         print(f"💻  Fav Command: {match['favorite_command']}")
         print("=" * 40)

@@ -5,7 +5,10 @@ from utils.swipe_engine import start_swiping
 from utils.match_viewer import view_matches
 from utils.love_quotes import show_random_quote
 from utils.easter_eggs import run_easter_egg
+from utils.zodiac import get_zodiac_sign
+from utils.truth_dare_engine import truth_or_dare
 from utils.mood_scanner import run_mood_scan, run_love_scan, run_nerd_scan, run_ex_scan
+
 
 def install_apt_love():
     print_delay("Reading package lists... Done", 0.03)
@@ -30,7 +33,6 @@ def create_profile():
         "Running sudo for validation", "Updating system to feel productive",
         "Collecting rare distros", "Arguing on StackOverflow",
     ]
-
     print_delay("\nWould you like to create a profile now? (Y/n)")
     if input("➤ ").strip().lower() == 'n':
         return
@@ -56,24 +58,33 @@ def create_profile():
             print_delay("⚠️  Only male or female. No Apache helicopters.")
 
     while True:
-        preference = input("💘 Looking for? (male/female/both): ").strip().lower()
+        preference = input("🚻 Looking for? (male/female/both): ").strip().lower()
         if preference in ["male", "female", "both"]:
             break
         else:
             print_delay("⚠️  Choose from male, female, both.")
+
+    print_delay("\n🌟 Enter your birthday (DD-MM):")
+    birthday_input = input("✨ ").strip()
+    try:
+        day, month = map(int, birthday_input.split("-"))
+        zodiac = get_zodiac_sign(day, month)
+    except:
+        zodiac = "Unknown"
+    print_delay(f"✨ Assigned Zodiac Sign: {zodiac}. May your stars be ever in your flavor of bash!")
 
     print_delay("\n🎯 Choose your top 3 interests:\n")
     for i, item in enumerate(INTEREST_OPTIONS, 1):
         print(f"  [{i}] {item}")
 
     while True:
-        selection = input("\n📥 Enter 3 numbers separated by commas: ").strip()
+        selection = input("\n📅 Enter 3 numbers separated by commas: ").strip()
         if ',' not in selection:
-            print_delay("⚠️  Use commas.")
+            print_delay("⚠️  Use commas. Like your ex uses mixed signals.")
             continue
         indexes = [int(i.strip()) for i in selection.split(',') if i.strip().isdigit()]
         if len(indexes) != 3 or any(i < 1 or i > len(INTEREST_OPTIONS) for i in indexes):
-            print_delay("⚠️  Select exactly 3 valid numbers.")
+            print_delay("⚠️  Select exactly 3 valid numbers. It's not a dating buffet.")
         else:
             break
 
@@ -86,7 +97,9 @@ def create_profile():
         "gender": gender,
         "preference": preference,
         "interests": interests,
-        "favorite_command": fav_cmd
+        "favorite_command": fav_cmd,
+        "birthday": birthday_input,
+        "zodiac": zodiac
     }
 
     os.makedirs("data", exist_ok=True)
@@ -95,7 +108,7 @@ def create_profile():
     with open("data/matches.json", "w") as f:
         json.dump([], f)
 
-    print_delay(f"\n✅ Profile created. Welcome, {username}!")
+    print_delay(f"\n✅ Profile created. Welcome, {username}! May your love life be more stable than Arch updates.")
 
 def edit_profile():
     if not os.path.exists("data/profile.json"):
@@ -106,7 +119,7 @@ def edit_profile():
         profile = json.load(f)
 
     print("\n🛠️  What would you like to edit?")
-    options = list(profile.keys())
+    options = [k for k in profile.keys() if k != "zodiac"]
     for i, key in enumerate(options, 1):
         print(f"  [{i}] {key}")
 
@@ -151,6 +164,16 @@ def edit_profile():
             print_delay("⚠️  Numbers only.")
             return
         profile[key] = int(new_val)
+    elif key == "birthday":
+        profile[key] = new_val
+    try:
+        day, month = map(int, new_val.split("-"))
+        from utils.zodiac import get_zodiac_sign
+        profile["zodiac"] = get_zodiac_sign(day, month)
+        print_delay(f"🔄 Zodiac updated to: {profile['zodiac']}")
+    except:
+        print_delay("⚠️ Invalid date. Zodiac not updated.")
+
     else:
         profile[key] = new_val
 
@@ -215,6 +238,9 @@ def main():
             view_matches()
         elif cmd == "love-quote":
             show_random_quote()
+        elif cmd == "truth-or-dare":
+            truth_or_dare()
+
         elif cmd == "exit":
             print_delay("Logging out but your heart remains logged in... 💔")
             break
@@ -235,7 +261,6 @@ def main():
 
         elif cmd == "ex-scan":
             run_ex_scan()
-
         else:
             run_easter_egg(cmd)
 
