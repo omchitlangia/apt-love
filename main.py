@@ -8,6 +8,7 @@ from utils.easter_eggs import run_easter_egg
 from utils.zodiac import get_zodiac_sign
 from utils.truth_dare_engine import truth_or_dare
 from utils.mood_scanner import run_mood_scan, run_love_scan, run_nerd_scan, run_ex_scan
+from games.date_invaders import start_date_invaders
 
 
 def install_apt_love():
@@ -261,6 +262,10 @@ def main():
 
         elif cmd == "ex-scan":
             run_ex_scan()
+
+        elif cmd == "date-invaders":
+            start_date_invaders()
+
         else:
             run_easter_egg(cmd)
 
