@@ -9,3 +9,12 @@ tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf
 Place it at:
 models/tinyllama.gguf
 
+Technology Stack:
+
+Python 3.13
+curses (terminal UI & game engine)
+JSON (data storage)
+ASCII art + emoji UX
+Modular CLI architecture
+No external APIs — fully offline 💾
+
