@@ -1,0 +1,54 @@
+────────────────────────────
+💻 General Setup & Install
+────────────────────────────
+
+bash
+Copy
+Edit
+sudo apt install apt-love     # Install apt-love
+uninstall apt-love            # Remove everything
+────────────────────────────
+👤 Profile Commands
+────────────────────────────
+
+bash
+Copy
+Edit
+create-profile                # Make your dating profile
+edit-profile                  # Update profile details
+show-profile                  # View your profile
+delete-profile                # Wipe your profile (emotional reset)
+────────────────────────────
+💘 Dating Engine
+────────────────────────────
+
+bash
+Copy
+Edit
+start-dating                  # Launch the swipe engine
+view-matches                  # See your saved matches
+────────────────────────────
+💬 Chat System
+────────────────────────────
+
+bash
+Copy
+Edit
+text [username]               # Start fake chat with matched profile
+────────────────────────────
+🎭 Games & Fun
+────────────────────────────
+
+bash
+Copy
+Edit
+truth-or-dare                 # Launch TRUTH.exe / DARE.sh
+date-invaders                 # Play the retro shooter game
+────────────────────────────
+🧠 Hidden / Extra
+────────────────────────────
+
+bash
+Copy
+Edit
+love-quote
