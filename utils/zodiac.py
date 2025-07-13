@@ -32,10 +32,11 @@ ZODIAC_COMPATIBILITY = {
 }
 
 def get_zodiac_sign(day: int, month: int) -> str:
+    date = (month, day)
     for sign, start, end in ZODIAC_SIGNS:
-        if (month == start[0] and day >= start[1]) or (month == end[0] and day <= end[1]):
+        if start <= date <= end:
             return sign
-    return "Unknown"
+    return "Capricorn"  # Fallback for dates like Dec 31 – Jan 1
 
 def signs_are_compatible(sign1, sign2):
     return sign2 in ZODIAC_COMPATIBILITY.get(sign1, [])

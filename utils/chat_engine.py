@@ -31,8 +31,20 @@ def start_chat_with(username):
             break
 
         # Simulate "typing..." animation
-        print(f"{username} 💚 is typing...", end="\r")
-        time.sleep(1 + len(user_msg) * 0.05)
+        # Typing animation with dots
+        typing_time = min(3.5, 1.5 + len(user_msg) * 0.07)  # max 3.5 seconds
+        start = time.time()
+        dot_count = 0
+
+        while time.time() - start < typing_time:
+            dots = "." * (dot_count % 4)
+            print(f"{username} 💚 is typing{dots}{' ' * (3 - len(dots))}", end="\r")
+            dot_count += 1
+            time.sleep(0.4)
+
+        # Clear the line after typing
+        print(" " * 60, end="\r")
+
 
         # Get reply
         reply = ai_reply(user_msg, personality, matched["interests"])

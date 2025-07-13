@@ -110,10 +110,6 @@ def create_profile():
 
     print_delay(f"\n✅ Profile created. Welcome, {username}! May your love life be more stable than Arch updates.")
 
-
-# (rest of your main.py remains unchanged from this point)
-# Ensure zodiac logic is used in swipe_engine and match messages too
-
 def edit_profile():
     if not os.path.exists("data/profile.json"):
         print_delay("⚠️  No profile to edit.")
@@ -123,7 +119,7 @@ def edit_profile():
         profile = json.load(f)
 
     print("\n🛠️  What would you like to edit?")
-    options = list(profile.keys())
+    options = [k for k in profile.keys() if k != "zodiac"]
     for i, key in enumerate(options, 1):
         print(f"  [{i}] {key}")
 
@@ -168,6 +164,16 @@ def edit_profile():
             print_delay("⚠️  Numbers only.")
             return
         profile[key] = int(new_val)
+    elif key == "birthday":
+        profile[key] = new_val
+    try:
+        day, month = map(int, new_val.split("-"))
+        from utils.zodiac import get_zodiac_sign
+        profile["zodiac"] = get_zodiac_sign(day, month)
+        print_delay(f"🔄 Zodiac updated to: {profile['zodiac']}")
+    except:
+        print_delay("⚠️ Invalid date. Zodiac not updated.")
+
     else:
         profile[key] = new_val
 
